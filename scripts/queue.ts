@@ -23,7 +23,7 @@ export default async function (page: Page) {
       .getByRole('heading', { name: 'Module Search' })
       .waitFor({ state: 'visible' })
 
-    console.log(`✨ Enter module selection page successfully\n`)
+    console.log(`✨ Enter module selection page successfully`)
   } catch (error) {
     throw Error(`Error@queue: \n${error}`)
   }

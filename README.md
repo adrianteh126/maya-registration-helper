@@ -15,12 +15,21 @@
         ...
     }
     ```
-- 
+- To start the program, 
+    ```console
+    npm run start
+    yarn run start
+    pnpm run start
+    ``` 
 
 ### Notes
 - Course registration is performed in one tab to ensure the logout security measure from maya is not triggered.
 - The program will prompt the status of registration once done. 
-- The program is still under development. ***Use this program at your own risk | [Read Disclaimer](#disclaimer)***
+- The program is still under development, which might cause unpredictable behavior from the program. ***Use this program at your own risk | [Read Disclaimer](#disclaimer)***
+
+### Feedback
+- Do open new issue to submit bugs @ [Github](https://github.com/adrianteh126/maya-registration-helper/issues/new)
+  
 
 ### Disclaimer
 > Maya Registration Helper is designed for educational and study purposes only. User is cautioned to use the program at your own risk. The program is not intended for commercial use, and its functionalities are solely geared towards providing a learning experience for educational purposes. Users should be aware that any engagement with the program outside the scope of its intended use is not recommended, and the creators bear no responsibility for any consequences arising from such actions

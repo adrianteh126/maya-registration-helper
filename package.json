@@ -11,9 +11,6 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "auth": "ts-node -r dotenv/config scripts/auth.ts",
-    "start": "ts-node -r dotenv/config scripts/index.ts",
-    "debug": "npx playwright test --debug",
-    "codegen": "ts-node -r dotenv/config scripts/auth.ts && npx playwright codegen --load-storage playwright/.auth/user.json"
+    "start": "ts-node -r dotenv/config scripts/index.ts"
   }
 }
