@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "EVISIONLOGINLANG",
+      "value": "",
+      "domain": "maya.um.edu.my",
+      "path": "/sitsvision/wrd",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "EVISIONLOGINHTV",
+      "value": "",
+      "domain": "maya.um.edu.my",
+      "path": "/sitsvision/wrd",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SESSIONSALT",
+      "value": "974D752D-43DB-4E75-A21F-2E2761BE8426",
+      "domain": "maya.um.edu.my",
+      "path": "/sitsvision/wrd",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "EVISIONID",
+      "value": "U2102750=8468DC48-DA30-4809-9EFF-440933A88AD0",
+      "domain": "maya.um.edu.my",
+      "path": "/sitsvision/wrd",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "CA957AE843F21D6A2E1188D81266EF2D",
+      "domain": "maya.um.edu.my",
+      "path": "/sitsvision",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cookiesession1",
+      "value": "678B28B8505D760C27E0E848F009BA0C",
+      "domain": "maya.um.edu.my",
+      "path": "/",
+      "expires": 1740475169.201481,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
