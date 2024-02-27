@@ -22,6 +22,11 @@
     pnpm run start
     ``` 
 
+
+### Demo 
+[Video](https://youtu.be/QOrSh4JuSTE)
+
+
 ### Notes
 - Course registration is performed in one tab to ensure the logout security measure from maya is not triggered.
 - The program will prompt the status of registration once done. 
