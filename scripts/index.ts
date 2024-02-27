@@ -19,7 +19,7 @@ const launchOptions: LaunchOptions = {
   const context = await browser.newContext()
   const page = await context.newPage()
   // Page settings
-  page.setDefaultTimeout(1000 * 60 * 5) // 5 mins timeout
+  page.setDefaultTimeout(1000 * 60 * 5) // 5 minutess timeout
 
   // Script start
   try {

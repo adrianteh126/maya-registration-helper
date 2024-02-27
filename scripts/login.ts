@@ -8,7 +8,9 @@ const PASSWORD: string = process.env.PASSWORD!
 export default async function (page: Page) {
   try {
     // Nav to Maya portal
-    await page.goto('https://maya.um.edu.my/sitsvision/wrd/siw_lgn')
+    await page.goto('https://maya.um.edu.my/sitsvision/wrd/siw_lgn', {
+      waitUntil: 'domcontentloaded'
+    })
 
     // Login with provided credential
     await page.getByLabel('Username').click()

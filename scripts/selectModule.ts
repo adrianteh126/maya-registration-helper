@@ -3,6 +3,9 @@ import courses from '../registration.json'
 import { RunProcessResponse } from './typing'
 
 export default async function (page: Page) {
+  // Page timeout setting
+  page.setDefaultTimeout(1000 * 60 * 5) // 5 minutes
+
   try {
     // TODO: perform checking on successfully enter module registration page before adding
 
@@ -21,6 +24,7 @@ export default async function (page: Page) {
       if (!addModule) continue
 
       addedOcc.push(`${key}[${value.occ}]`)
+      setTimeout(() => {}, 3000)
     }
 
     // Summarize for registered courses

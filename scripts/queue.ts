@@ -2,6 +2,9 @@ import { type Page } from 'playwright'
 
 export default async function (page: Page) {
   try {
+    // Page timeout setting
+    page.setDefaultTimeout(1000 * 60 * 15) // 15 minutes
+
     // TOOD: Multiple attempts when failed to queue until module registration
     // TODO: adding trycatch or some verification code to confirm successful landing on module registration page
 
